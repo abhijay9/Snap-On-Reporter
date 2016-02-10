@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="DashedCircularProgress">
+        <attr name="external_color" format="color" />
+        <attr name="base_color" format="color" />
+        <attr name="progress_color" format="color" />
+        <attr name="max" format="float" />
+        <attr name="min" format="float" />
+        <attr name="progress_icon" format="reference" />
+        <attr name="duration" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="metaButtonBarStyle" format="reference" />
+        <attr name="metaButtonBarButtonStyle" format="reference" />
+    </declare-styleable>
+
+</resources>

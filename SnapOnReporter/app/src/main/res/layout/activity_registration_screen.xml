@@ -1,0 +1,141 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@color/size_bg"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView android:text="@string/subtitle_register" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="35dp"
+            android:id="@+id/register_subtitle"
+            android:textColor="@color/size_external"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:paddingTop="30dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Username"
+            android:layout_height="fill_parent"
+            android:textColor="@color/size_external"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:id="@+id/username"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            />
+
+        <!--<TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/username"
+            android:layout_weight="3"
+            android:background="@color/white"
+            android:hint="username"
+            android:editable="true"
+            android:clickable="true"
+            android:focusable="true"
+            android:enabled="true"
+            android:focusableInTouchMode="true"
+            android:maxLines="1"
+            android:lines="1"
+            android:singleLine="true"
+            android:textIsSelectable="true"
+            android:inputType="textShortMessage" />
+!-->
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:paddingTop="30dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="E-mail"
+            android:layout_height="fill_parent"
+            android:textColor="@color/size_external"
+            android:editable="false" />
+        <!--
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="E-mail"
+            android:id="@+id/email"
+            android:layout_weight="3"
+            android:background="@color/white"
+            android:editable="true"
+            android:clickable="true"
+            android:focusable="true"
+            android:enabled="true"
+            android:focusableInTouchMode="true"
+            android:inputType="textWebEmailAddress"
+            android:maxLines="1"
+            android:lines="1"
+            android:singleLine="true"
+            android:textIsSelectable="true" />
+!-->
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:id="@+id/email"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:paddingTop="20dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:text="Smile for the camera"
+            android:textSize="30dp"
+            android:textColor="@color/size_external"/>
+
+        <ImageButton
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@android:drawable/ic_menu_camera"
+            android:id="@+id/profile_picture"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Register"
+            android:onClick="btnSignUpClick"
+            android:id="@+id/signup"
+            android:background="@color/size_bg"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+</LinearLayout>

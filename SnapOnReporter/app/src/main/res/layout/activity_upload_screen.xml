@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:columnWidth="100dp"
+        android:gravity="center"
+        android:horizontalSpacing="4dip"
+        android:numColumns="1"
+        android:stretchMode="columnWidth"
+        android:background="@color/size_bg"
+
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@color/size_bg">
+        <Button
+            android:id="@+id/report_upload"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:onClick="btnUploadReportClick"
+            android:text="Upload"
+            android:background="@android:color/transparent"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+</LinearLayout>

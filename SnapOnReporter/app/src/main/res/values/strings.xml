@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SnapOnReporter</string>
+    <string name="hello_world">Gathering Ammunition</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_registration_screen">Registration_screen</string>
+    <string name="title_activity_home_screen">Home_screen</string>
+    <string name="title_activity_gallery_screen">Gallery_screen</string>
+    <string name="title_activity_upload_screen">Upload_screen</string>
+    <string name="subtitle_register">Suit Up</string>
+    <string name="title_activity_leadboard_screen">Leadboard_screen</string>
+    <string name="description_text">Description</string>
+</resources>
