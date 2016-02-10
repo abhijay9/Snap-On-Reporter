@@ -1,0 +1,11 @@
+{
+	"name": "file-upload",
+	"version": "0.0.1",
+	"main": "app.js",
+	"dependencies": {
+		"express" : "~4.0.0", 
+		"connect": "~2.14.4",
+		"mongoose": "*",
+		"angular": "^1.3.10"  
+  }
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="moderatorApp">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="js/angular.js"></script>
+    <script type="text/javascript" src="js/angular-resource.js"></script>
+    <script type="text/javascript" src="js/appName.js"></script>
+    <script type="text/javascript" src="js/controllers/reviewController.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+    <style>
+
+
+
+table, td, th {
+    border: 1px solid black;
+     word-wrap:break-word;
+}
+body {
+    background-image: url("stylesheets/images/backgroundpage.jpg");
+}
+</style>
+</head>
+<nav class="fixed-nav-bar">
+  <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="#">Review</a></li>
+  
+</ul>
+</nav>
+<div ng-controller="reviewController">
+     <h1>Review Images</h1>
+
+        <table  class= "table1" width="80%" align='center'
+        style= 'table-layout:fixed'>
+        <col width=400>
+        <col width=80>
+        <col width=80>
+        <col width=80>
+        <col width=150>
+        <col width=100>
+        <col width=100>
+        <col width=80>
+        <col width=80>
+       
+        <thead>
+                        <th scope="col" abbr="Image">Image</th>
+                        <th scope="col" abbr="Index">Index</th>
+                        <th scope="col" abbr="ImageId">Image ID</th>
+                        <th scope="col" abbr="ImageId">Flag></th>
+                        <th scope="col" abbr="Location">Location</th>
+                        <th scope="col" abbr="Land">Landmark</th>
+                        <th scope="col" abbr="Des">Description</th>
+                        <th scope="col" abbr="Accept">Accept Image</th>
+                        <th scope="col" abbr="Reject">Reject Image</th>
+                    </tr>
+                </thead>
+          <tr ng-repeat="report in reports">
+
+            <td width="90%" >
+            <div class="image-lightbox">
+              <img ng-src="images/{{report.img}}.jpg" onerror="this.src='images/Default.jpg'" style="height:300px;width:350px"/></td>
+            </div>
+            <td>{{$index}}</td>
+            <td>{{report.img}}</td>    
+            <td>{{report.flag}}</td>
+            <td>{{report.loc}}</td>
+            <td>{{report.landmark}}</td>
+            <td>{{report.description}}</td>
+            <td><button ng-show="statex(report.flag)" ng-click="change(report)">X</button></td>
+            <td><button ng-show="statey(report.flag)"ng-click="change(report)">Y</button></td>
+          </tr>
+          </tr>
+        </table>
+      </div>
+  </body>
+</html>
