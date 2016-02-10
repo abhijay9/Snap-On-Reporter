@@ -4,6 +4,6 @@ With the ever increasing size of cities maintenance and organization have become
 
 <p><img src="https://github.com/abhijayghildyal/Snap-On-Reporter/blob/master/SnapOnReporter/images/1.png" align="middle" height="550" width="300" margin="0 auto" />
 <img src="https://github.com/abhijayghildyal/Snap-On-Reporter/blob/master/SnapOnReporter/images/2.png" align="middle" height="550" width="300" margin="0 auto" />
-<p><img src="https://github.com/abhijayghildyal/Snap-On-Reporter/blob/master/SnapOnReporter/images/3.png" align="middle" height="550" width="300" margin="0 auto" />
+<img src="https://github.com/abhijayghildyal/Snap-On-Reporter/blob/master/SnapOnReporter/images/3.png" align="middle" height="550" width="300" margin="0 auto" />
 <p><img src="https://github.com/abhijayghildyal/Snap-On-Reporter/blob/master/SnapOnReporter/images/5.png" align="middle" height="450" width="350" margin="0 auto" />
-<img src="https://github.com/abhijayghildyal/Snap-On-Reporter/blob/master/SnapOnReporter/images/6.png" align="middle" height="450" width="300" margin="0 auto" />
+<p><img src="https://github.com/abhijayghildyal/Snap-On-Reporter/blob/master/SnapOnReporter/images/6.png" align="middle" height="450" width="300" margin="0 auto" />
